@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planificador de Viajes AR</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Planificador de Viajes con Realidad Aumentada</h1>
+    </header>
+    <main>
+        <section id="itinerarios">
+            <h2>Crea tu Itinerario</h2>
+            <form id="itinerario-form">
+                <label for="destino">Destino:</label>
+                <input type="text" id="destino" name="destino" required>
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <button type="submit">Agregar</button>
+            </form>
+            <ul id="lista-itinerarios"></ul>
+        </section>
+        <section id="ar-experiencias">
+            <h2>Experiencias de Realidad Aumentada</h2>
+            <p>Explora tus destinos con experiencias interactivas.</p>
+            <div id="ar-content"></div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Planificador de Viajes AR</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
